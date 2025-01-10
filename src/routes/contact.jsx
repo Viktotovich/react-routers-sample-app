@@ -81,7 +81,7 @@ function Favorite({ contact }) {
   );
 }
 
-Favorite.PropTypes = {
+Favorite.propTypes = {
   contact: PropTypes.shape({
     first: PropTypes.string,
     last: PropTypes.string,
